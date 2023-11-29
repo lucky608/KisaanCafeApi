@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "V97KlSYGgmc/rrmuUOc90UmIYvZrVcC92MUXFirN2b1KotHotA/djQ1DAt1KgOfVrU9qy+lc6UVh0DfBR4TkKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lokendra.Patidar\\source\\repos\\KissanCafeApiWeb\\KissanCafeApiWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
