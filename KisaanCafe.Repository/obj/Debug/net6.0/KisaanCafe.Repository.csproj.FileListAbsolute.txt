@@ -1,0 +1,17 @@
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.csproj.AssemblyReference.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.AssemblyInfoInputs.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.AssemblyInfo.cs
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.csproj.CoreCompileInputs.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Repository.deps.json
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Repository.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Repository.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Models.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Models.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.csproj.CopyComplete
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\refint\KisaanCafe.Repository.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\ref\KisaanCafe.Repository.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Repository.runtimeconfig.json
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.genruntimeconfig.cache
