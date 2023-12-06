@@ -15,3 +15,4 @@ C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\ref\KisaanCafe.Repository.dll
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\bin\Debug\net6.0\KisaanCafe.Repository.runtimeconfig.json
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.genruntimeconfig.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Repository\obj\Debug\net6.0\KisaanCafe.Repository.sourcelink.json

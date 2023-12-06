@@ -253,5 +253,7 @@ C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\refint\KisaanCa
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\KisaanCafeWebAPI.pdb
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\KisaanCafeWebAPI.genruntimeconfig.cache
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\ref\KisaanCafeWebAPI.dll
-C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\KisaanCafeWebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\KisaanCafeWebAPI.sourcelink.json
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\bin\Debug\net6.0\KisaanCafe.Services.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\bin\Debug\net6.0\KisaanCafe.Services.pdb

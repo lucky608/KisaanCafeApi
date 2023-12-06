@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KisaanCafe.Repository\KisaanCafe.Repository.csproj" />
+    <ProjectReference Include="..\KisaanCafe.Services\KisaanCafe.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

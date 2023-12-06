@@ -9,6 +9,7 @@
       "KisaanCafeWebAPI/1.0.0": {
         "dependencies": {
           "KisaanCafe.Repository": "1.0.0",
+          "KisaanCafe.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
@@ -2582,6 +2583,15 @@
         "runtime": {
           "KisaanCafe.Repository.dll": {}
         }
+      },
+      "KisaanCafe.Services/1.0.0": {
+        "dependencies": {
+          "KisaanCafe.Repository": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11"
+        },
+        "runtime": {
+          "KisaanCafe.Services.dll": {}
+        }
       }
     }
   },
@@ -4172,6 +4182,11 @@
       "sha512": ""
     },
     "KisaanCafe.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KisaanCafe.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

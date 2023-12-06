@@ -1,49 +1,38 @@
-﻿using KisaanCafe.Models;
-using KisaanCafe.Repository;
+﻿using KisaanCafe.Services.Product;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using static NuGet.Packaging.PackagingConstants;
 
 namespace KisaanCafeWebAPI.Controllers
 {
-    public class ProductController : Controller
+    [Route("[controller]")]
+    [ApiController]
+    public class ProductController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
-        public ProductController(ApplicationDbContext context)
+        private readonly IProductServices _services;
+
+        public ProductController(IProductServices services)
         {
-            _context = context;
+            _services = services;
         }
 
-        [HttpGet]
-        public IActionResult Index()
+        [HttpGet("GetAllProducts", Name = "GetAllProducts")]
+        public async Task<IActionResult> GetAllProductAsync()
         {
-            var listFromDb = _context.ProductDetails.ToList().Select(
-                x=> new ProductDetails()
+            try
+            {
+                var products = await _services.GetProductDetailsAsync();
+
+                if (products == null || !products.Any())
                 {
-                    Id=x.Id,
-                    Name=x.Name,
-                    Description=x.Description,
-                    Prize=x.Prize
-                }) ;
-            return View(listFromDb);
-        }
+                    return NoContent(); // Or any other appropriate status code
+                }
 
-        [HttpGet]
-        [Route("", Name = "Accounts")]
-        public async Task<IActionResult> GetAccountsAsync()
-        {
-            var listFromDb = await _context.ProductDetails
-      .Select(x => new ProductDetails
-      {
-          Id = x.Id,
-          Name = x.Name,
-          Description = x.Description,
-          Prize = x.Prize
-      })
-      .ToListAsync()
-      .ConfigureAwait(false);
-
-            return Ok(listFromDb);
+                return Ok(products);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it appropriately
+                return StatusCode(500, "Internal Server Error");
+            }
         }
     }
 }

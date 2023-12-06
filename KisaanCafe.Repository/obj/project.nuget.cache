@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TwkAxtrS/RAKzJKzJfj0oP7zwUdVUB1scijqs23cbMg972tM2uryfNnaUsMsGyG3bt3WkwDP+jrFfZAPIZEQDA==",
+  "dgSpecHash": "imnfTIOt83LrwLpq2lO4P9rzHCsRCCiS94Wue5CoOgla1s4CJs4TWIe2oEmmtUa/c7RQxqT7PlXyZMJkRTN55A==",
   "success": true,
   "projectFilePath": "C:\\KisaanCafeAll\\KisaanCafeApi\\KisaanCafe.Repository\\KisaanCafe.Repository.csproj",
   "expectedPackageFiles": [
@@ -50,7 +50,10 @@
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,6 @@
 using KisaanCafe.Repository;
+using KisaanCafe.Repository.Product;
+using KisaanCafe.Services.Product;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,8 +14,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContextConnection"), builder =>
             builder.MigrationsAssembly("KisaanCafeWebAPI")));
 
+builder.Services.AddScoped<IProductServices, ProductServices>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
