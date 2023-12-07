@@ -4,6 +4,7 @@ using KisaanCafe.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KisaanCafeWebAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231207120406_AddWeight")]
+    partial class AddWeight
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,7 +47,7 @@ namespace KisaanCafeWebAPI.Migrations
                     b.Property<decimal>("Prize")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("Weight")
+                    b.Property<decimal>("weight")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");

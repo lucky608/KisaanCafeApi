@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KisaanCafe.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1679ed628170ad083c4fa98f79f9166f814d29d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("KisaanCafe.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KisaanCafe.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

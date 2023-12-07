@@ -27,7 +27,10 @@ namespace KisaanCafe.Repository.Product
                         Id = x.Id,
                         Name = x.Name,
                         Description = x.Description,
-                        Prize = x.Prize
+                        Prize = x.Prize,
+                        Weight=x.Weight,
+                        ImageData = x.ImageData,
+                        
                     })
                     .ToListAsync()
                     .ConfigureAwait(false);

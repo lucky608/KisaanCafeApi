@@ -257,3 +257,4 @@ C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\bin\Debug\net6.0\Microsoft.Entit
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\KisaanCafeWebAPI.sourcelink.json
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\bin\Debug\net6.0\KisaanCafe.Services.dll
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\bin\Debug\net6.0\KisaanCafe.Services.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafeWebAPI\obj\Debug\net6.0\KisaanCafeWebAPI.MvcApplicationPartsAssemblyInfo.cs
