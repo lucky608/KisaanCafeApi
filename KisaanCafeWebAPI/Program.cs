@@ -1,8 +1,11 @@
+using KisaanCafe.Mapper;
 using KisaanCafe.Repository;
 using KisaanCafe.Repository.Product;
 using KisaanCafe.Services.Product;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,19 +13,30 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
+// Add AutoMapper
+//builder.Services.AddMapperHelper();
+
+// Add DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContextConnection"), builder =>
-            builder.MigrationsAssembly("KisaanCafeWebAPI")));
+        builder.MigrationsAssembly("KisaanCafeWebAPI")));
 
-builder.Services.AddScoped<IProductServices, ProductServices>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+// Add Identity
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
-
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+// Add other services
+builder.Services.AddScoped<IProductServices, ProductServices>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+// Add MapperClient
+//builder.Services.AddScoped<IMapperClient, MapperClient>();
+
+// Add other services if needed
+
 builder.Services.AddSwaggerGen();
+
 // Configure CORS
 builder.Services.AddCors(options =>
 {
@@ -45,6 +59,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
-app.MapControllers();
 app.UseCors();
+app.MapControllers();
 app.Run();

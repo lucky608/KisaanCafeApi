@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KisaanCafeWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1679ed628170ad083c4fa98f79f9166f814d29d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e90db954e7428cde11b1bf164d724a8570ce03bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("KisaanCafeWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KisaanCafeWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

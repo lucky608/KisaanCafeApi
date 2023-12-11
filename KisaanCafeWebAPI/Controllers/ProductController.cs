@@ -1,4 +1,5 @@
-﻿using KisaanCafe.Services.Product;
+﻿using KisaanCafe.Models;
+using KisaanCafe.Services.Product;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KisaanCafeWebAPI.Controllers
@@ -32,6 +33,20 @@ namespace KisaanCafeWebAPI.Controllers
             {
                 // Log the exception or handle it appropriately
                 return StatusCode(500, "Internal Server Error");
+            }
+        }
+        [HttpPost("AddProduct", Name = "AddProduct")]
+        public async Task<IActionResult> AddProductAsync([FromBody] ProductCommand product)
+        {
+            try
+            {
+                var addedProducts = await _services.AddProductAsync(product).ConfigureAwait(false);
+                return Ok(addedProducts);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it appropriately
+                return StatusCode(500, ex);
             }
         }
     }

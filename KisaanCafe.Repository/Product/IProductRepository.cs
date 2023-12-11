@@ -10,6 +10,8 @@ namespace KisaanCafe.Repository.Product
     public interface IProductRepository
     {
         Task<List<ProductDetails>> GetAllProductAsync();
+        Task<ProductCommand> AddProductAsync(ProductCommand product);
+
 
     }
 }

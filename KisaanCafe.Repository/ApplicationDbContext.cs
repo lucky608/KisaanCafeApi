@@ -18,6 +18,7 @@ namespace KisaanCafe.Repository
         }
 
 
-        public DbSet<ProductDetails> ProductDetails { get; set; }
+       // public DbSet<ProductDetails> ProductDetails { get; set; }
+        public DbSet<ProductCommand> ProductDetails { get; set; }
     }
 }

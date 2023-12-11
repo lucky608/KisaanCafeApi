@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "i6mHh57oo4AzRgvw7lNQeeqdooo5y/zjUNXHTAPgnL+Ti9a24GUk59IttBoJf41p2vkbgOSFobi5jkei/Ogsig==",
+  "dgSpecHash": "mIAEjL9ddPm0XxzCFTCSMmjULk+9ulmp+aI3bLMB/PcXN9fb6mEP5RItVTsmuAAPiEWPLqAKkAA7WZqB6jA2Ow==",
   "success": true,
   "projectFilePath": "C:\\KisaanCafeAll\\KisaanCafeApi\\KisaanCafe.Models\\KisaanCafe.Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.11\\microsoft.entityframeworkcore.6.0.11.nupkg.sha512",

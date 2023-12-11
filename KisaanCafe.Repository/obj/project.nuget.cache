@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "imnfTIOt83LrwLpq2lO4P9rzHCsRCCiS94Wue5CoOgla1s4CJs4TWIe2oEmmtUa/c7RQxqT7PlXyZMJkRTN55A==",
+  "dgSpecHash": "qgDXU/hBY29DoLfKbJoHckjSzfOA3Vl3yCPKLHenchfHln8T+Pf58JRpL7wbHEaakQzIroCh3MkcFv3ekSFhew==",
   "success": true,
   "projectFilePath": "C:\\KisaanCafeAll\\KisaanCafeApi\\KisaanCafe.Repository\\KisaanCafe.Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.11\\microsoft.aspnetcore.cryptography.internal.6.0.11.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.11\\microsoft.aspnetcore.cryptography.keyderivation.6.0.11.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.11\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.11.nupkg.sha512",
-    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Lokendra.Patidar\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.11\\microsoft.entityframeworkcore.6.0.11.nupkg.sha512",

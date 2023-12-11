@@ -1,0 +1,16 @@
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.csproj.AssemblyReference.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.AssemblyInfoInputs.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.AssemblyInfo.cs
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.csproj.CoreCompileInputs.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.sourcelink.json
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\bin\Debug\net6.0\KisaanCafe.Mapper.deps.json
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\bin\Debug\net6.0\KisaanCafe.Mapper.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\bin\Debug\net6.0\KisaanCafe.Mapper.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\bin\Debug\net6.0\KisaanCafe.Models.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\bin\Debug\net6.0\KisaanCafe.Models.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.csproj.CopyComplete
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\refint\KisaanCafe.Mapper.dll
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\KisaanCafe.Mapper.pdb
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Mapper\obj\Debug\net6.0\ref\KisaanCafe.Mapper.dll

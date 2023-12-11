@@ -44,5 +44,18 @@ namespace KisaanCafe.Repository.Product
             }
         }
 
+        public async Task<ProductCommand> AddProductAsync(ProductCommand product)
+        {
+            _context.ProductDetails.Add(product);
+            try
+            {
+                var result = await _context.SaveChangesAsync().ConfigureAwait(false);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            return product;
+        }
     }
 }

@@ -6,8 +6,8 @@ C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Mod
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.AssemblyInfoInputs.cache
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.AssemblyInfo.cs
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.csproj.CoreCompileInputs.cache
+C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.sourcelink.json
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.dll
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\refint\KisaanCafe.Models.dll
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.pdb
 C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\ref\KisaanCafe.Models.dll
-C:\KisaanCafeAll\KisaanCafeApi\KisaanCafe.Models\obj\Debug\net6.0\KisaanCafe.Models.sourcelink.json

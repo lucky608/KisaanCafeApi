@@ -10,5 +10,7 @@ namespace KisaanCafe.Services.Product
     public interface IProductServices
     {
         Task<List<ProductDetails>> GetProductDetailsAsync();
+        Task<PostActionModel> AddProductAsync(ProductCommand product);
+
     }
 }
