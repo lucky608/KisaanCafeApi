@@ -11,7 +11,8 @@ namespace KisaanCafe.Repository.Product
     {
         Task<List<ProductDetails>> GetAllProductAsync();
         Task<ProductCommand> AddProductAsync(ProductCommand product);
-
+        Task<bool> DeleteProductAsync(int productId);
+        Task<bool> UpdateProductAsync(int productId,ProductCommand product);
 
     }
 }

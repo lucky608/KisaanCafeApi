@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KisaanCafe.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e90db954e7428cde11b1bf164d724a8570ce03bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfe71757e1c9d4f137f6300ce8003587cf643662")]
 [assembly: System.Reflection.AssemblyProductAttribute("KisaanCafe.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KisaanCafe.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

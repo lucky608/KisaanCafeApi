@@ -57,5 +57,27 @@ namespace KisaanCafe.Repository.Product
             }
             return product;
         }
+
+        public async Task<bool> UpdateProductAsync(int productId,ProductCommand product)
+        {
+            _context.ProductDetails.Update(product);
+            var response = (await _context.SaveChangesAsync().ConfigureAwait(false)) > 0;
+            return response;
+        }
+        public async Task<bool> DeleteProductAsync(int productId)
+        {
+            var account = await _context.ProductDetails.FindAsync(productId).ConfigureAwait(false);
+
+            if (account == null)
+                return false;
+
+            //Delete the account
+            _context.ProductDetails.Remove(account);
+
+            await _context.SaveChangesAsync().ConfigureAwait(false);
+
+            return true;
+        }
+
     }
 }

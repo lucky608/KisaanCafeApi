@@ -49,5 +49,30 @@ namespace KisaanCafeWebAPI.Controllers
                 return StatusCode(500, ex);
             }
         }
+
+        [HttpPut]
+        [Route("{productId}", Name = "UpdateProduct")]
+        public async Task<PutActionResult> UpdateProductAsync(int productId, [FromBody] ProductCommand product)
+        {
+            product.Id = productId;
+            return await _services.UpdateProductAsync(productId, product).ConfigureAwait(false);
+        }
+
+        [HttpDelete]
+        [Route("{productId}", Name = "DeleteProduct")]
+        public async Task<IActionResult> DeleteProductAsync(int productId)
+        {
+             
+            try
+            {
+                var isProductDelete = await _services.DeleteProductAsync(productId).ConfigureAwait(false);
+                return Ok(isProductDelete);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it appropriately
+                return StatusCode(500, ex);
+            }
+        }
     }
 }

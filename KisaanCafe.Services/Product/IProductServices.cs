@@ -11,6 +11,7 @@ namespace KisaanCafe.Services.Product
     {
         Task<List<ProductDetails>> GetProductDetailsAsync();
         Task<PostActionModel> AddProductAsync(ProductCommand product);
-
+        Task<DeleteActionCode> DeleteProductAsync(int productId);
+        Task<PutActionResult> UpdateProductAsync(int  productId, ProductCommand product);
     }
 }

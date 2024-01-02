@@ -39,5 +39,29 @@ namespace KisaanCafe.Services.Product
             // You might want to return an empty list or handle it differently based on your requirements
             return new PostActionModel { NewProductDetails = newProductData };
         }
+
+        public async Task<PutActionResult> UpdateProductAsync(int productId, ProductCommand productDetails)
+        {
+            //var updateAccount = await _mapper.MapAsync<Manager.Models.AccountManagement.Account, InfraModels.AccountManagement.Account>(acManagerModel).ConfigureAwait(false);
+            bool response = await _productRepository.UpdateProductAsync(productId, productDetails).ConfigureAwait(false);
+            if (response)
+            {
+                return new PutActionResult
+                {
+                    Result = PutActionResultCode.ResourceUpdatedSuccessfully,
+                    NewResourceRelativeUrl = $"/domain/{response}"
+                };
+            }
+            return new PutActionResult { Result = PutActionResultCode.ResourceFailedToUpdate };
+        }
+        public async Task<DeleteActionCode> DeleteProductAsync(int productId)
+        {
+            var resultCode = await _productRepository.DeleteProductAsync(productId).ConfigureAwait(false);
+            if (resultCode)
+            {
+                return await Task.FromResult(DeleteActionCode.ResourceDeletedSuccessfully).ConfigureAwait(false);
+            }
+            return await Task.FromResult(DeleteActionCode.ResourceNotFound).ConfigureAwait(false);
+        }
     }
 }
